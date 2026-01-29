@@ -10,15 +10,15 @@
 
   <style>
     .profile-pic {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid #38bdf8;
-  box-shadow: 0 6px 14px rgba(0,0,0,0.25);
-  display: block;
-  margin: 0 auto 20px;
-}
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #38bdf8;
+      box-shadow: 0 6px 14px rgba(0,0,0,0.25);
+      display: block;
+      margin: 0 auto 20px;
+    }
 
     :root {
       --bg: #0f172a;
@@ -95,7 +95,7 @@
 
     .btn {
       display: inline-block;
-      margin: 30px 10px 0;
+      margin: 10px 10px 0;
       padding: 12px 30px;
       border-radius: 30px;
       background: var(--primary);
@@ -152,11 +152,9 @@
     }
 
     /* ===== CONTACT ===== */
-    .contact a {
-      color: var(--primary);
-      text-decoration: none;
-      display: block;
-      margin-bottom: 8px;
+    .contact .btn {
+      display: inline-block;
+      margin: 8px 10px 0 0;
     }
 
     footer {
@@ -199,7 +197,7 @@
 </nav>
 
 <header>
-  <img src="sibin.jpeg" class="profile-pic">
+  <img src="sibin.jpeg" class="profile-pic" alt="Sibin Das S">
   <h1>Sibin Das S</h1>
   <p>Linux & Cloud Engineer | Learning • Building • Deploying</p>
   <a href="#projects" class="btn">View Projects</a>
@@ -236,11 +234,22 @@
 
 <section id="contact" class="contact">
   <h2>Contact</h2>
-  <a href="mailto:sibinsv55@gmail.com"><i class="fas fa-envelope"></i> sibinsv55@gmail.com</a>
-  <a href="#"><i class="https://www.linkedin.com/in/sibin-das-s-58974b349?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bz4HFQ14uTUajD9sFXLacNA%3D%3D"></i> LinkedIn</a>
-  <a href="#"><i class="https://github.com/Sibinsd"></i> GitHub</a>
-  <a href="tel:+918590716814">📞+91 85907 16814</a>
 
+  <a href="mailto:sibinsv55@gmail.com" class="btn">
+    <i class="fas fa-envelope"></i> Email
+  </a>
+
+  <a href="https://www.linkedin.com/in/sibin-das-s-58974b349" target="_blank" class="btn">
+    <i class="fab fa-linkedin"></i> LinkedIn
+  </a>
+
+  <a href="https://github.com/Sibinsd" target="_blank" class="btn">
+    <i class="fab fa-github"></i> GitHub
+  </a>
+
+  <a href="tel:+918590716814" class="btn">
+    📞 +91 85907 16814
+  </a>
 </section>
 
 <footer>
